@@ -17,6 +17,7 @@ export default function () {
     <Guitar
       strings={strings}
       renderFinger={getRenderFingerSpn(standard)}
+      playOnHover
       onChange={setStrings}
       onPlay={play}
     />
