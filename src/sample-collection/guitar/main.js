@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Guitar, { getRenderFingerSpn } from "react-guitar";
 import { standard } from "react-guitar-tunings";
 import useSound from 'react-guitar-sound';
+import coco from 'react-guitar-theme-coco';
 
 const samples = ['E2', 'D3', 'G3', 'E4'].reduce(
   (samples, note) => Object.assign(samples, {
@@ -18,6 +19,7 @@ export default function () {
       strings={strings}
       renderFinger={getRenderFingerSpn(standard)}
       playOnHover
+      theme={coco}
       onChange={setStrings}
       onPlay={play}
     />
