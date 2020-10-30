@@ -30,6 +30,10 @@
     "react-guitar-tunings": "^0.11.0"
   },
   "devDependencies": {
-    "generator-liferay-fragments": "^1.8.0-rc7"
+    "css-loader": "^5.0.0",
+    "generator-liferay-fragments": "^1.8.0-rc7",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0"
   }
 }
