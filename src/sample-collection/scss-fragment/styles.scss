@@ -1,0 +1,8 @@
+$buttonConfig: 'save' 50px blue, 'cancel' 50px red, 'help' 100px orange;
+
+@each $tuple in $buttonConfig {
+    .button-#{nth($tuple, 1)} {
+        width: nth($tuple, 2);
+        background-color: nth($tuple, 3);
+    }
+}
