@@ -3106,7 +3106,7 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-generator-liferay-fragments@^1.8.0-rc3:
+generator-liferay-fragments@^1.8.0-rc7:
   version "1.8.0-rc7"
   resolved "https://registry.yarnpkg.com/generator-liferay-fragments/-/generator-liferay-fragments-1.8.0-rc7.tgz#dafd801c6882b7622650e5cf1e59dd50258418b1"
   integrity sha512-Qd23kfwP47IA9zw7JUUad/TV6Pi6xZ5qv6cblTg92TTJQXfDaDfWQ5s1OZPvEAZ3IxjmiMVt7QRx0m5dpBhYqA==
