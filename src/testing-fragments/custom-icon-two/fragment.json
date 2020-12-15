@@ -1,0 +1,9 @@
+{
+  "cssPath": "styles.css",
+  "configurationPath": "configuration.json",
+  "htmlPath": "index.html",
+  "jsPath": "main.js",
+  "name": "Custom Icon Two",
+  "type": "component",
+  "icon": "emoji"
+}
