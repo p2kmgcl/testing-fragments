@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "Guitar",
+  "name": "React To-Do example",
   "type": "react"
 }

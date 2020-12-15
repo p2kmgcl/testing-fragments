@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "ToDo",
+  "name": "React with no JSX",
   "type": "react"
 }
