@@ -1,0 +1,44 @@
+{
+  "fieldSets": [
+    {
+      "label": "Gradient",
+      "fields": [
+        {
+          "dataType": "string",
+          "name": "gradientDirection",
+          "label": "Gradient direction",
+          "type": "select",
+          "typeOptions": {
+            "validValues": [
+              {"value": "top"},
+              {"value": "right"},
+              {"value": "bottom"},
+              {"value": "left"}
+            ]
+          },
+          "defaultValue": "right"
+        },
+        {
+          "dataType": "object",
+          "label": "Gradient begin",
+          "name": "gradientBegin",
+          "type": "colorPalette",
+          "defaultValue": {
+            "cssClass": "white",
+            "rgbValue": "#000"
+          }
+        },
+        {
+          "dataType": "object",
+          "label": "Gradient end",
+          "name": "gradientEnd",
+          "type": "colorPalette",
+          "defaultValue": {
+            "cssClass": "white",
+            "rgbValue": "#fff"
+          }
+        }
+      ]
+    }
+  ]
+}
