@@ -3045,10 +3045,10 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-generator-liferay-fragments@^1.8.0:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/generator-liferay-fragments/-/generator-liferay-fragments-1.8.2.tgz#436893afc061e22114c10e71a4507782daa5c411"
-  integrity sha512-rCi4/Ucyz6qe/xnu03zqTkfnDHFMfAT+dT0Clc9dhYWrj3AQmsWiy4/H9uUweJCmF9a6gospnjO4tSoF7P2BNg==
+generator-liferay-fragments@^1.9.0-rc2:
+  version "1.9.0-rc2"
+  resolved "https://registry.yarnpkg.com/generator-liferay-fragments/-/generator-liferay-fragments-1.9.0-rc2.tgz#8af380149928cd0afe510ef3fdb9c20303cb1cff"
+  integrity sha512-wlPfhZY1FTzo1dq360R2uk8+ZEM+sKgVbU7iq5e7xs+Wq86vJKupmrISEjDK/IXSCwBx1u9d4nPD0nogBX2Qiw==
   dependencies:
     "@babel/core" "^7.11.6"
     "@babel/preset-env" "^7.11.5"
