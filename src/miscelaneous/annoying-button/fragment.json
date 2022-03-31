@@ -3,6 +3,7 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "Container with gradient",
+  "icon": "button",
+  "name": "Annoying Button",
   "type": "component"
 }

@@ -3,6 +3,7 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "Annoying Button",
+  "icon": "special-character",
+  "name": "Weird Char",
   "type": "component"
 }

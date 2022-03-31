@@ -3,6 +3,7 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "React Guitar",
+  "icon": "list-ul",
+  "name": "React To-Do example",
   "type": "react"
 }

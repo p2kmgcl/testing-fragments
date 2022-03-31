@@ -4,6 +4,7 @@
   "htmlPath": "index.html",
   "jsPath": "main.js",
   "name": "Bulma Breadcrumb",
+  "icon": "breadcrumb",
   "sass": {
     "loadPaths": [
       "../../../node_modules"

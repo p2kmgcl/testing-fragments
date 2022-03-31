@@ -3,7 +3,7 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "Custom Icon One",
-  "type": "component",
-  "icon": "sticky"
+  "icon": "audio",
+  "name": "React Guitar",
+  "type": "react"
 }

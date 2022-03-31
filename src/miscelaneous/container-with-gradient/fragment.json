@@ -3,7 +3,7 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "Custom Icon Two",
-  "type": "component",
-  "icon": "emoji"
+  "icon": "background-color",
+  "name": "Container with gradient",
+  "type": "component"
 }
