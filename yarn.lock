@@ -3634,10 +3634,10 @@ gauge@~1.2.5:
     lodash.padend "^4.1.0"
     lodash.padstart "^4.1.0"
 
-generator-liferay-fragments@^2.0.0-rc3:
-  version "2.0.0-rc3"
-  resolved "https://registry.yarnpkg.com/generator-liferay-fragments/-/generator-liferay-fragments-2.0.0-rc3.tgz#585181c16f14a296f77a03a863ac4c2b51bf7004"
-  integrity sha512-Q2+65Sy+qI7+0welT8RuvbUmxLHN4gdMw/YGWAQbI3WnsZ7msih9VS2qTRqR5zisxinOM5IKCh0SkDqhVruhKw==
+generator-liferay-fragments@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/generator-liferay-fragments/-/generator-liferay-fragments-2.0.0.tgz#186b37d9885ed3e7bb83d2c3086a5a7cbf65cd98"
+  integrity sha512-BVJeoAHGPDHtBqkWlY+kk65ixr47fTqrQUc7nNCDJD56/b440pDfPy+96tAbDdczx8DSj9mAgXN7axECyGFOug==
   dependencies:
     "@babel/core" "^7.11.6"
     "@babel/preset-env" "^7.11.5"
