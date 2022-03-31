@@ -1,0 +1,35 @@
+.fragment_113 {
+  display: flex;
+  gap: 1em;
+  align-items: stretch;
+}
+
+.fragment_113 .input-label {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.fragment_113 .input-label input {
+  display: none;
+}
+
+.fragment_113 .input-label span {
+  border: solid rgba(0, 0, 0, 0.2) thin;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fragment_113 .input-input:checked + span {
+  border-color: blue;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}

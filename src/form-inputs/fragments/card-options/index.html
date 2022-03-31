@@ -1,0 +1,20 @@
+<div class="fragment_113">
+  [#list 0..configuration.numberOfOptions-1 as i]
+  <label class="input-label">
+    <input
+      class="input-input"
+      name="option"
+      data-lfr-editable-id="input-${i+1}"
+      data-lfr-editable-type="form-input"
+      type="radio"
+    />
+    <span
+      class="input-span"
+      data-lfr-editable-id="label-${i+1}"
+      data-lfr-editable-type="rich-text"
+    >
+      Option ${i+1}
+    </span>
+  </label>
+  [/#list]
+</div>
