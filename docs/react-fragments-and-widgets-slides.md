@@ -14,6 +14,26 @@ footer: Fragments, React and Widgets - pablomolina.me/r/liferay-fragments
 
 ---
 
+## Who am I?
+
+- Spider-Man fan
+- Joined Liferay in 2017
+- Working mostly on _Modern Site Building_
+- Chachi FrontEnd Developer™
+  - 😱 No Java
+  - 😭 No ~~Portlets~~ Widgets
+  - 💔 No FreeMarker
+
+---
+
+<!-- _class: "lead" -->
+
+## Please do interrupt me
+
+🔊
+
+---
+
 <!-- _class: "lead" -->
 
 > Fragments are simple, are just some pieces of HTML, CSS and JavaScript that can be added to a page and easily managed by FrontEnd developers...
@@ -21,7 +41,7 @@ footer: Fragments, React and Widgets - pablomolina.me/r/liferay-fragments
 > ... But now they have more capabilities and are more complex, lets see the differences.
 
 <p style="text-align: left; font-size: 0.75em; margin-top: 4em;">
-Me, <a href="https://liferay.dev/blogs/-/blogs/fragments-react-and-widgets">liferay.dev/blogs/-/blogs/fragments-react-and-widgets</a>
+Me - Fragments, React and Widgets: <a href="https://liferay.dev/blogs/-/blogs/fragments-react-and-widgets">liferay.dev/blogs/-/blogs/fragments-react-and-widgets</a>
 </p>
 
 ---
@@ -29,12 +49,110 @@ Me, <a href="https://liferay.dev/blogs/-/blogs/fragments-react-and-widgets">life
 ## Summary
 
 0. Widgets
-1. First fragment
-2. Adding editable values
-3. Using FreeMarker
-4. Writing configuration
-5. Using React
-6. Next steps
+1. First Fragment
+2. Content Pages vs Widget Pages
+3. Extending Fragments
+4. Using React
+5. _Next steps_
+
+---
+
+## 0. Widgets
+
+- Java _components_
+- Can do _virtually_ everything
+- Can be built using FrontEnd tools
+
+<p style="text-align: left; font-size: 0.75em; margin-top: 4em;">
+Carlos Lancha and Rodolfo Miranda - The Frontend Developer’s Guide to the Galaxy: Integrating a Real-world App in DXP: <a href="https://www.youtube.com/watch?v=WMEXAGMP9Ls">youtu.be/WMEXAGMP9Ls</a>
+</p>
+
+---
+
+## 1. First Fragment
+
+- Start from scratch
+- Use only HTML, CSS, and JavaScript
+- Works inside a Content Page
+
+```
+<button type="button">
+  Click me
+</button>
+
+fragmentElement.addEventListener(
+  "click",
+  () => alert("Hey!")
+);
+```
+
+---
+
+## 2. Content Pages vs Widget Pages
+
+With Content Pages:
+
+- Layout is restricted
+- No templates are provided
+- Widgets can be used too (7.2+)
+
+---
+
+## 3. Extending Fragments
+
+- Widgets inside Fragments
+- `<lfr-editable />`
+- FreeMarker
+- Toolkit
+- Configuration
+- Compositions
+- `data-lfr-editable`
+- Common Styles
+- FragmentRenderer
+- React
+- SCSS
+- ...
+
+<style scoped>
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    box-shadow: inset 0 0 0 0.25em #ddd;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+  }
+
+  li:last-child {
+    box-shadow: none;
+  }
+</style>
+
+---
+
+## 4. Using React
+
+- Pros:
+  - Reusing React components
+  - More complex logic
+- Cons:
+  - _Heavier_ Fragments
+  - No editables
+  - No HTML
+
+---
+
+## 5. Next steps
+
+- Better Common Styles
+- More no-code features
+- React
+- **You tell us**
 
 ---
 
@@ -48,6 +166,7 @@ Me, <a href="https://liferay.dev/blogs/-/blogs/fragments-react-and-widgets">life
 - Blog post (English): [liferay.dev/blogs/-/blogs/fragments-react-and-widgets](https://liferay.dev/blogs/-/blogs/fragments-react-and-widgets)
 - Documentation reference: [learn.liferay.com/dxp/latest/en/site-building/developer-guide/reference/fragments.html](https://learn.liferay.com/dxp/latest/en/site-building/developer-guide/reference/fragments.html)
 - Fragment development documentation: [learn.liferay.com/dxp/latest/en/site-building/developer-guide/developing_page_fragments.html](https://learn.liferay.com/dxp/latest/en/site-building/developer-guide/developing_page_fragments.html)
+- FreeMarker CheatSheet: [pablomolina.me/tesera/entry/freemarker](https://pablomolina.me/tesera/entry/freemarker/)
 
 ---
 
