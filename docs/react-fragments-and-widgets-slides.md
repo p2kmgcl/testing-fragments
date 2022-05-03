@@ -109,8 +109,8 @@ With Content Pages:
 - `data-lfr-editable`
 - Common Styles
 - FragmentRenderer
-- React
 - SCSS
+- React
 - ...
 
 <style scoped>
@@ -151,8 +151,7 @@ With Content Pages:
 
 - Better Common Styles
 - More no-code features
-- React
-- **You tell us**
+- **You tell us 🫶**
 
 ---
 
