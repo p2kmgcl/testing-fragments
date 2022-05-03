@@ -2,7 +2,7 @@
 marp: true
 theme: gaia
 size: 16:9
-footer: Fragments, React and Widgets - Pablo Molina
+footer: Fragments, React and Widgets - pablomolina.me/r/liferay-fragments
 ---
 
 <!-- _footer: "" -->
@@ -10,8 +10,7 @@ footer: Fragments, React and Widgets - Pablo Molina
 
 # Fragments, React and Widgets
 
-[pablomolina.me](https://pablomolina.me)
-[github.com/p2kmgcl/demo-fragments](https://github.com/p2kmgcl/demo-fragments)
+[pablomolina.me/r/liferay-fragments](https://pablomolina.me/r/liferay-fragments)
 
 ---
 
@@ -21,15 +20,21 @@ footer: Fragments, React and Widgets - Pablo Molina
 
 > ... But now they have more capabilities and are more complex, lets see the differences.
 
+<p style="text-align: left; font-size: 0.75em; margin-top: 4em;">
+Me, <a href="https://liferay.dev/blogs/-/blogs/fragments-react-and-widgets">liferay.dev/blogs/-/blogs/fragments-react-and-widgets</a>
+</p>
+
 ---
 
 ## Summary
 
+0. Widgets
 1. First fragment
 2. Adding editable values
 3. Using FreeMarker
 4. Writing configuration
 5. Using React
+6. Next steps
 
 ---
 
@@ -39,7 +44,6 @@ footer: Fragments, React and Widgets - Pablo Molina
   li { font-size: 30px; }
 </style>
 
-- **Slides**: [github.com/p2kmgcl/demo-fragments](https://github.com/p2kmgcl/demo-fragments)
 - Blog post (Spanish): [liferay.dev/blogs/-/blogs/fragmentos-react-y-widgets](https://liferay.dev/blogs/-/blogs/fragmentos-react-y-widgets)
 - Blog post (English): [liferay.dev/blogs/-/blogs/fragments-react-and-widgets](https://liferay.dev/blogs/-/blogs/fragments-react-and-widgets)
 - Documentation reference: [learn.liferay.com/dxp/latest/en/site-building/developer-guide/reference/fragments.html](https://learn.liferay.com/dxp/latest/en/site-building/developer-guide/reference/fragments.html)
@@ -103,9 +107,5 @@ footer: Fragments, React and Widgets - Pablo Molina
     background-position: 50% 50%;
     vertical-align: middle;
     transform: translateY(-0.125em);
-  }
-
-  footer::after {
-    content: 'github.com/p2kmgcl/demo-fragments';
   }
 </style>
