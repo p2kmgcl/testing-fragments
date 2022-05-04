@@ -1,0 +1,7 @@
+.configuration-logger {
+  width: 80ch;
+  max-width: 100%;
+  white-space: pre-wrap;
+  box-sizing: border-box;
+  padding: 1em;
+}

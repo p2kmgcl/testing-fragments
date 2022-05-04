@@ -1,0 +1,71 @@
+{
+  "fieldSets": [
+    {
+      "configurationRole": "advanced",
+      "label": "",
+      "fields": [
+        {
+          "label": "categoryTreeNodeSelector",
+          "name": "categoryTreeNodeSelector",
+          "type": "categoryTreeNodeSelector"
+        },
+        {
+          "label": "checkbox",
+          "name": "checkbox",
+          "type": "checkbox"
+        },
+        {
+          "label": "colorPalette",
+          "name": "colorPalette",
+          "type": "colorPalette"
+        },
+        {
+          "label": "colorPicker",
+          "name": "colorPicker",
+          "type": "colorPicker"
+        },
+        {
+          "label": "collectionSelector",
+          "name": "collectionSelector",
+          "type": "collectionSelector"
+        },
+        {
+          "label": "itemSelector",
+          "name": "itemSelector",
+          "type": "itemSelector"
+        },
+        {
+          "label": "navigationMenuSelector",
+          "name": "navigationMenuSelector",
+          "type": "navigationMenuSelector"
+        },
+        {
+          "label": "select",
+          "name": "select",
+          "type": "select",
+          "defaultValue": "yes",
+          "typeOptions": {
+            "validValues": [
+              {
+                "value": "yes"
+              },
+              {
+                "value": "no"
+              }
+            ]
+          }
+        },
+        {
+          "label": "text",
+          "name": "text",
+          "type": "text"
+        },
+        {
+          "label": "videoSelector",
+          "name": "videoSelector",
+          "type": "videoSelector"
+        }
+      ]
+    }
+  ]
+}
