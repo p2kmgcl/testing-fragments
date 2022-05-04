@@ -5,5 +5,5 @@
   "jsPath": "main.js",
   "name": "Configuration Logger",
   "icon": "search",
-  "type": "component"
+  "type": "react"
 }
