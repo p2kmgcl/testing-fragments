@@ -145,6 +145,17 @@ With Content Pages:
   - No editables
   - No HTML
 
+![](https://liferay.dev/o/adaptive-media/image/121336029/Preview-1000x0/8638acdc-c891-417c-8687-232f9a9ab7a4.png?t=1642581289374)
+
+<style scoped>
+  img {
+    position: absolute;
+    right: 1em;
+    bottom: 2em;
+    width: calc(100% - 18em);
+  }
+</style>
+
 ---
 
 ## 5. Next steps
