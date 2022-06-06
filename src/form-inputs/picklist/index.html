@@ -1,0 +1,9 @@
+<div class="forms-picklist">
+  <select [#if (input.required)??]required[/#if]>
+    [#list (input.options)!{} as option]
+      <option value="${option.value}">
+        ${option.label}
+      </option>
+    [/#list]
+  </select>
+</div>
