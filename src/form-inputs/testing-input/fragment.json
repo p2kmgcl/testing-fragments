@@ -1,0 +1,17 @@
+{
+  "cssPath": "styles.css",
+  "configurationPath": "configuration.json",
+  "htmlPath": "index.html",
+  "jsPath": "main.js",
+  "name": "Testing Input",
+  "type": "input",
+  "typeOptions": {
+    "fieldTypes": [
+      "boolean",
+      "date",
+      "number",
+      "select",
+      "text"
+    ]
+  }
+}
