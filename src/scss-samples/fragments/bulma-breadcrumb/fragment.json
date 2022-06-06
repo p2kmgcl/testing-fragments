@@ -7,7 +7,7 @@
   "icon": "breadcrumb",
   "sass": {
     "loadPaths": [
-      "../../../node_modules"
+      "../../../../node_modules"
     ]
   }
 }
